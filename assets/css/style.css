@@ -116,3 +116,23 @@
   font-size: 3rem;
   font-weight: 800;
 }
+
+@media screen and (max-width: 900px) {
+  .score {
+    font-size: 1em;
+  }
+
+  .button {
+    font-size: 120%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .score {
+    font-size: 0.8em;
+  }
+
+  .button {
+    font-size: 100%;
+  }
+}
